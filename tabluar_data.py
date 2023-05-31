@@ -18,3 +18,7 @@ df = pd.read_excel("data/pokemon_data.xlsx")
 #reading from a specific location
 
 print(df.iloc[2,1])
+
+# itterating through rows
+for index, row in df.iterrows():
+    print(index, row)
